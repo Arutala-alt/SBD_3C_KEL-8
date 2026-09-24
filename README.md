@@ -1,6 +1,9 @@
-# Lalu Klampan Portfolio
+# Portfolio Collection
 
-This repository contains the static portfolio site served from `index.html`.
+This repository contains a landing page linking to two static portfolios:
+
+- `farid/` — Farid Ilhamsyah
+- `lalu-klampan/` — Lalu Klampan
 
 ## Deploy to GitHub Pages
 

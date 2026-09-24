@@ -46,7 +46,7 @@
     }
     h1 span { color: var(--blue); }
     .intro { max-width: 590px; margin: 28px 0 54px; color: var(--muted); font-size: 1.1rem; }
-    .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+    .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
     .card {
       display: flex;
       min-height: 255px;
@@ -70,6 +70,7 @@
       font-weight: 800;
     }
     .lalu .mark { color: var(--ink); background: var(--mint); border-radius: 50%; }
+    .ghifari .mark { background: #0f9d91; }
     h2 { margin: 20px 0 8px; color: var(--navy); font-size: 1.65rem; letter-spacing: -.04em; }
     .lalu h2 { color: var(--green); }
     .card p { margin: 0; color: var(--muted); }
@@ -81,6 +82,9 @@
     }
     .lalu .link { color: var(--green); }
     footer { padding: 24px 0 36px; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 900px) {
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
     @media (max-width: 700px) {
       main { padding-top: 45px; }
       .cards { grid-template-columns: 1fr; }
@@ -94,7 +98,7 @@
   <main class="container">
     <p class="eyebrow">Selected work</p>
     <h1>Temukan cerita di balik <span>setiap karya.</span></h1>
-    <p class="intro">Jelajahi portfolio dua talenta dengan minat, pengalaman, dan perspektif yang berbeda.</p>
+    <p class="intro">Jelajahi portfolio tiga talenta dengan minat, pengalaman, dan perspektif yang berbeda.</p>
     <section class="cards" aria-label="Daftar portfolio">
       <article class="card">
         <div>
@@ -111,6 +115,14 @@
           <p>Content-minded problem solver dengan semangat belajar dan berkolaborasi.</p>
         </div>
         <a class="link" href="lalu-klampan/">Lihat portfolio Lalu →</a>
+      </article>
+      <article class="card ghifari">
+        <div>
+          <div class="mark">GS</div>
+          <h2>Ghifari Syafitra</h2>
+          <p>Muhammad Al Ghifari Syafitra, dengan pendekatan kreatif dan semangat membangun karya.</p>
+        </div>
+        <a class="link" href="ghifari/">Lihat portfolio Ghifari →</a>
       </article>
     </section>
   </main>

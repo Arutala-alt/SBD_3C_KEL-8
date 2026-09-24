@@ -4,6 +4,7 @@ This repository contains a landing page linking to two static portfolios:
 
 - `farid/` — Farid Ilhamsyah
 - `lalu-klampan/` — Lalu Klampan
+- `ghifari/` — Muhammad Al Ghifari Syafitra
 
 ## Deploy to GitHub Pages
 
